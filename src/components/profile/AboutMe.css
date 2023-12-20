@@ -1,0 +1,153 @@
+.about-header{
+    /* background-color: aliceblue; */
+    /* margin: 10px; */
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.introduce {
+    width: 70%;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 2;
+    /* align-items: center; */
+
+    /* background-color: rgb(208, 124, 15); */
+}
+
+
+.text-introduce {
+    font-size: 16px;
+}
+
+.text-introduce span {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.content-wrapper {
+    margin: 20px;
+}
+
+.text-content {
+    margin-right: 2rem;
+    word-spacing:  2px;
+}
+
+
+.aboutme-icon {
+    font-size: 80px;
+}   
+
+
+
+
+.project-icon {
+    font-size: 60px;
+    
+}   
+
+
+.project-item {
+    height: 300px;
+    background-color: aqua;
+    /* height: 500px;
+    width: 500px; */
+    /* background: url('../../assets/project.png'); */
+    /* background-color: aqua; */
+}
+
+.project-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project-item-box:hover
+ {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+
+}
+
+.project-item-box {
+    width: 47%;
+    height: 600px;
+    margin-top: 40px;
+    background-color: #c7d0e533;
+    border-radius: 25px;
+    border: 2px solid gray;
+    padding: 25px 25px;
+
+    
+}
+
+.project-description {
+    padding: 25px 0px;
+}
+
+.img-project {
+    width: 30%;
+    height: auto;
+}
+
+.item-skill-wrapper {
+    /* width: min(95%, 45rem); */
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+    /* justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    gap: 20px; */
+    /* display: flex; */
+
+}
+
+
+.skill-item {
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-top: 25px;
+    padding: 0.5rem;
+
+
+    
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .project-item-box {
+        width: 100%;
+        height: 300px;
+    }
+}
